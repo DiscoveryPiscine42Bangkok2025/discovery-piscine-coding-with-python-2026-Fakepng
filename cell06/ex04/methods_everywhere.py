@@ -11,7 +11,7 @@ def shrink(string):
 
 def enlarge(string):
     print(string, end="")
-    print("z" * (8 - len(string)))
+    print("Z" * (8 - len(string)))
 
 for i in range(1, len(sys.argv)):
     if len(sys.argv[i]) > 8:
